@@ -1,0 +1,109 @@
+int b = 0;
+/*for(int i =1;i<=30;i++)
+{
+    Console.WriteLine(i + " listopada");
+}*/
+/*for(int i =1;i<=10;i+=2)
+{
+    b = i * i;
+    Console.WriteLine(b + " Kwadrat cyfry: "+ i);
+    b = 0;
+}*/
+/*for(int i=1000;i<10000;i++)
+{
+    if(i%379==0)
+    {
+        Console.WriteLine(i);
+    }
+}*/
+/*for(int i =100;i<1000;i++)
+{
+    if (i % 5 == 0 && i%6==0 || i%11==0)
+    {
+        Console.WriteLine(i);
+    }    
+}*/
+/*
+	Console.WriteLine("Podaj ilość liczb:");
+	int n=int.Parse(Console.ReadLine());
+	int nliczb = 0;
+	for(int i=0; i<n; i++)
+{
+    	Console.WriteLine("Podaj liczbę:"+ " numer: "+ (i+1));
+   	b=int.Parse(Console.ReadLine());
+   	nliczb += b;
+}
+	Console.Write("suma:");
+	Console.Write(nliczb);
+*/
+
+/*
+Console.WriteLine("Podaj liczbę:");
+int k =int.Parse(Console.ReadLine());
+for(int i = 1; i <= k; i++)
+{
+    if(i%2==0)
+    {
+        b += i;
+    }
+}
+Console.Write("Suma liczb parzystych: ");
+Console.Write(b);
+*/
+
+/*
+Console.WriteLine("Podaj liczbę:");
+int k = int.Parse(Console.ReadLine());
+for(int i = 1; i <= k; i++)
+{
+    if(i>10 && i<100 && i%2!=0)
+    {
+        b += i;
+    }
+}
+Console.Write("Suma liczb nieparzystych dwucyfrowych: ");
+Console.Write(b);
+*/
+
+
+/*
+Console.WriteLine("Podaj wartość inwestycji:");
+double wartosc = double.Parse(Console.ReadLine());
+Console.WriteLine("Podaj czas inwestycji (z dokładnością co pół roku):");
+int czas = int.Parse(Console.ReadLine());
+int c = czas * 12 / 2;
+double wartosc1 = 0;
+for(int i = 0; i < c; i++)
+{
+    wartosc1 += wartosc * 0.06;
+
+}
+Console.Write("Wartość inwestycji po upłynięciu założonego czasu: ");
+Console.Write(wartosc1+wartosc);
+*/
+
+
+/*
+Console.WriteLine("Podaj liczbę:");
+int n = int.Parse(Console.ReadLine());
+for(int i = 1; i <= n; i++)
+{
+    if(i%100==21)
+    {
+        b += i;
+    }
+}
+Console.Write("Suma liczb kończących się 21: ");
+Console.Write(b);
+*/
+/*
+double n;
+for(double i=1;i<1000;i++)
+{
+    n = Math.Sqrt(i);
+    if(n==(int)n)
+    {
+        Console.WriteLine(i);
+    }
+}
+*/
